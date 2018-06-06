@@ -1,16 +1,17 @@
 {
-    "name": "learntypescript",
-    "version": "1.0.0",
-    "description": "Learning TS",
-    "main": "app.js",
-    "scripts": {
-        "start": "lite-server",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-        "lite-server": "^2.3.0"
-    },
-    "dependencies": {}
+  "name": "learntypescript",
+  "version": "1.0.0",
+  "description": "Learning TS",
+  "main": "app.js",
+  "scripts": {
+    "ts": "tsc app.ts --outFile app.js --watch",
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {}
 }

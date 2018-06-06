@@ -1,3 +1,3 @@
-console.log(this);
+/// <reference path='./topics/modularization/3-bundleNamespaces.ts' />
 
-console.log('this is insane');
+console.log('---------------- app.js ----------------');
